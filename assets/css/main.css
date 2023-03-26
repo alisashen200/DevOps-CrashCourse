@@ -1497,6 +1497,15 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+		#header h1:nth-child(2) {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 22px;
+			color: white;
+			padding: 16px 0;
+		}
+
 			#header h1 a {
 				border: 0;
 				color: inherit;
